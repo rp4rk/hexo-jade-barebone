@@ -24,7 +24,7 @@
 
   #site-slogan{
     font-size: 0.75em;
-    border-left: solid 1px @border-color;
+    border-left: solid 1px $border-color;
     padding-left: 1.5rem;
     margin-top: 0.85em;
     float: left;
@@ -113,10 +113,10 @@
   figure[class*="lang"] table,
   figure[class*="lang"] pre {
     width: 100%;
-    border: solid 0.05em @code-border;
+    border: solid 0.05em $code-border;
     display: block;
     overflow: auto;
-    background: @code-background;
+    background: $code-background;
   }
 
   figure[class*="lang"] pre{
@@ -130,15 +130,15 @@
   td.gutter {
     width: 30px;
     padding: 0 4px;
-    background: @code-background;
-    border-right: solid 1px @code-border;
+    background: $code-background;
+    border-right: solid 1px $code-border;
     text-align: right;
   }
 
   td.code {
     width: 100%;
     padding: 0 6px;
-    background: @code-background;
+    background: $code-background;
   }
 
 
@@ -168,7 +168,7 @@
 
   #page-footer{
     padding: 0.65rem 0 0;
-    border-top: 0.1rem dotted @border-color;
+    border-top: 0.1rem dotted $border-color;
     margin: 7.5rem 0 3rem;
   }
 

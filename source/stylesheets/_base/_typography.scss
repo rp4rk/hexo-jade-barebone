@@ -182,8 +182,8 @@
 	blockquote{ 
 		padding-left: 1.5em; 
 		position: relative;
-		border-left: dotted 0.075em @border-color;
-		color: @light-black;
+		border-left: dotted 0.075em $border-color;
+		color: $light-black;
 	}
 
 	blockquote p { 
@@ -218,7 +218,7 @@
 	abbr[title], 
 	acronym[title], 
 	dfn[title] { 
-		border-bottom: 0.075em dotted @border-color; 
+		border-bottom: 0.075em dotted $border-color; 
 		cursor: help; 
 	}
 
@@ -226,7 +226,7 @@
 	
 	hr {
 		border: none;
-		border-top: dotted 0.075em @border-color;
+		border-top: dotted 0.075em $border-color;
 		height: 1.5em;
 	}
 

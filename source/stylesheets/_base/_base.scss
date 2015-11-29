@@ -12,8 +12,8 @@
   }
 
 	body {
-		background: @body-background; 
-    color: @body-text;
+		background: $body-background; 
+    color: $body-text;
   } 	
 
 
@@ -27,7 +27,7 @@
 	a, 
   a:visited { 
     text-decoration: none; 
-    color: @active-link;
+    color: $active-link;
     outline: 0;
     -webkit-transition: color 0.2s ease-in;
     -moz-transition: color 0.2s ease-in;
@@ -36,12 +36,12 @@
   }
 
   a:visited { 
-    color: @visited-link; 
+    color: $visited-link; 
   }
 	
   a:hover, 
   a:focus { 
-    color: @hover-link; 
+    color: $hover-link; 
   }
 	
   p a, 
@@ -51,18 +51,18 @@
 
   article { 
     a {
-      color: @active-link-alt;
+      color: $active-link-alt;
     }
     a:hover {
-      color: @active-link;
+      color: $active-link;
     }
 
     .meta {
       a {
-        color: @active-link;
+        color: $active-link;
       }
       a:hover {
-        color: @active-link-alt;
+        color: $active-link-alt;
       }
     }
   }
